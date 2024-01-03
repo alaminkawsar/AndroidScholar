@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidScholar</string>
+    <string name="button_text">Show</string>
+    <string name="toast_text">You have clicked Toast Message</string>
 </resources>
