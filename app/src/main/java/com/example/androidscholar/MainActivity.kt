@@ -1,19 +1,19 @@
 package com.example.androidscholar
 
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Button
-import android.widget.Toast
 import androidx.activity.ComponentActivity
-import com.example.androidscholar.databinding.CustomDrawingViewBinding
+import androidx.activity.compose.setContent
+import com.example.androidscholar.databinding.LayoutBinding
+import com.example.androidscholar.file_picker.FilePickerActivity
+import com.example.androidscholar.file_picker.FilePickerUi
 
 class MainActivity : ComponentActivity() {
-    private lateinit var binding: CustomDrawingViewBinding
+    private lateinit var binding: LayoutBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout)
-        binding = CustomDrawingViewBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContent {
+            FilePickerUi()
+        }
     }
 }
