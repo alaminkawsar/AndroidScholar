@@ -1,11 +1,9 @@
 package com.example.androidscholar
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.androidscholar.databinding.LayoutBinding
-import com.example.androidscholar.file_picker.FilePickerActivity
 import com.example.androidscholar.file_picker.FilePickerUi
 
 class MainActivity : ComponentActivity() {
