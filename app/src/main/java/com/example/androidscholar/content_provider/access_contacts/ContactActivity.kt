@@ -1,4 +1,4 @@
-package com.example.androidscholar.access_contacts
+package com.example.androidscholar.content_provider.access_contacts
 
 import android.Manifest
 import android.annotation.SuppressLint
